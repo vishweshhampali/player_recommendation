@@ -1,0 +1,327 @@
+{
+    "match_summary": {
+        "balls_per_over": 6,
+        "city": "Napier",
+        "dates": [
+            "2002-12-29"
+        ],
+        "event": {
+            "name": "India tour of New Zealand",
+            "match_number": 2
+        },
+        "gender": "male",
+        "match_type": "ODI",
+        "match_type_number": 1927,
+        "officials": {
+            "match_referees": [
+                "RS Madugalle"
+            ],
+            "tv_umpires": [
+                "BF Bowden"
+            ],
+            "umpires": [
+                "EAR de Silva",
+                "DB Cowie"
+            ]
+        },
+        "outcome": {
+            "winner": "New Zealand",
+            "by": {
+                "runs": 35
+            }
+        },
+        "overs": 50,
+        "player_of_match": [
+            "V Sehwag"
+        ],
+        "players": {
+            "New Zealand": [
+                "SP Fleming",
+                "NJ Astle",
+                "MS Sinclair",
+                "CD McMillan",
+                "L Vincent",
+                "JDP Oram",
+                "BB McCullum",
+                "KD Mills",
+                "DL Vettori",
+                "DR Tuffey",
+                "PA Hitchcock"
+            ],
+            "India": [
+                "SC Ganguly",
+                "V Sehwag",
+                "VVS Laxman",
+                "R Dravid",
+                "Yuvraj Singh",
+                "M Kaif",
+                "SB Bangar",
+                "Harbhajan Singh",
+                "Z Khan",
+                "J Srinath",
+                "A Nehra"
+            ]
+        },
+        "registry": {
+            "people": {
+                "A Nehra": "96fd40ae",
+                "BB McCullum": "b8a55852",
+                "BF Bowden": "efc0a862",
+                "CD McMillan": "f5390243",
+                "DB Cowie": "36931357",
+                "DL Vettori": "d7c6af50",
+                "DR Tuffey": "43936951",
+                "EAR de Silva": "dc63f509",
+                "Harbhajan Singh": "8b5b6769",
+                "J Srinath": "bad31fac",
+                "JDP Oram": "3eac9d95",
+                "KD Mills": "7fb32e5b",
+                "L Vincent": "2764133a",
+                "M Kaif": "d84378a4",
+                "MS Sinclair": "1b668884",
+                "NJ Astle": "99639abf",
+                "PA Hitchcock": "27d1cc51",
+                "R Dravid": "0184dc35",
+                "RS Madugalle": "766b5798",
+                "SB Bangar": "0604ef16",
+                "SC Ganguly": "725529bc",
+                "SP Fleming": "eea6b7f1",
+                "V Sehwag": "8ba8195d",
+                "VVS Laxman": "de8cce37",
+                "Yuvraj Singh": "1c914163",
+                "Z Khan": "91a4a398"
+            }
+        },
+        "season": "2002/03",
+        "team_type": "international",
+        "teams": [
+            "New Zealand",
+            "India"
+        ],
+        "toss": {
+            "decision": "field",
+            "winner": "India"
+        },
+        "venue": "McLean Park, Napier"
+    },
+    "innings_summary": [
+        {
+            "team": "New Zealand",
+            "total_runs": 254,
+            "total_wickets": 9,
+            "total_extras": 28,
+            "top_scorer": {
+                "player": "MS Sinclair",
+                "runs": 78
+            },
+            "best_bowler": {
+                "player": "Z Khan",
+                "wickets": 4
+            },
+            "batting_contributions": {
+                "SP Fleming": {
+                    "runs": 1,
+                    "balls": 6,
+                    "strike_rate": 16.67
+                },
+                "NJ Astle": {
+                    "runs": 76,
+                    "balls": 97,
+                    "strike_rate": 78.35
+                },
+                "MS Sinclair": {
+                    "runs": 78,
+                    "balls": 127,
+                    "strike_rate": 61.42
+                },
+                "CD McMillan": {
+                    "runs": 5,
+                    "balls": 7,
+                    "strike_rate": 71.43
+                },
+                "L Vincent": {
+                    "runs": 34,
+                    "balls": 32,
+                    "strike_rate": 106.25
+                },
+                "JDP Oram": {
+                    "runs": 4,
+                    "balls": 7,
+                    "strike_rate": 57.14
+                },
+                "BB McCullum": {
+                    "runs": 7,
+                    "balls": 12,
+                    "strike_rate": 58.33
+                },
+                "KD Mills": {
+                    "runs": 5,
+                    "balls": 7,
+                    "strike_rate": 71.43
+                },
+                "DL Vettori": {
+                    "runs": 9,
+                    "balls": 6,
+                    "strike_rate": 150.0
+                },
+                "DR Tuffey": {
+                    "runs": 5,
+                    "balls": 7,
+                    "strike_rate": 71.43
+                },
+                "PA Hitchcock": {
+                    "runs": 2,
+                    "balls": 1,
+                    "strike_rate": 200.0
+                }
+            },
+            "bowling_contributions": {
+                "J Srinath": {
+                    "runs_given": 40,
+                    "wickets": 3,
+                    "balls": 60,
+                    "overs": 10.0,
+                    "economy": 4.0
+                },
+                "Z Khan": {
+                    "runs_given": 54,
+                    "wickets": 4,
+                    "balls": 66,
+                    "overs": 11.0,
+                    "economy": 4.91
+                },
+                "A Nehra": {
+                    "runs_given": 44,
+                    "wickets": 0,
+                    "balls": 48,
+                    "overs": 8.0,
+                    "economy": 5.5
+                },
+                "Harbhajan Singh": {
+                    "runs_given": 58,
+                    "wickets": 1,
+                    "balls": 62,
+                    "overs": 10.3,
+                    "economy": 5.61
+                },
+                "SB Bangar": {
+                    "runs_given": 34,
+                    "wickets": 0,
+                    "balls": 43,
+                    "overs": 7.2,
+                    "economy": 4.74
+                },
+                "SC Ganguly": {
+                    "runs_given": 24,
+                    "wickets": 1,
+                    "balls": 30,
+                    "overs": 5.0,
+                    "economy": 4.8
+                }
+            }
+        },
+        {
+            "team": "India",
+            "total_runs": 219,
+            "total_wickets": 10,
+            "total_extras": 17,
+            "top_scorer": {
+                "player": "V Sehwag",
+                "runs": 108
+            },
+            "best_bowler": {
+                "player": "DR Tuffey",
+                "wickets": 3
+            },
+            "batting_contributions": {
+                "SC Ganguly": {
+                    "runs": 0,
+                    "balls": 3,
+                    "strike_rate": 0.0
+                },
+                "VVS Laxman": {
+                    "runs": 20,
+                    "balls": 40,
+                    "strike_rate": 50.0
+                },
+                "V Sehwag": {
+                    "runs": 108,
+                    "balls": 121,
+                    "strike_rate": 89.26
+                },
+                "R Dravid": {
+                    "runs": 18,
+                    "balls": 27,
+                    "strike_rate": 66.67
+                },
+                "Yuvraj Singh": {
+                    "runs": 0,
+                    "balls": 2,
+                    "strike_rate": 0.0
+                },
+                "M Kaif": {
+                    "runs": 24,
+                    "balls": 38,
+                    "strike_rate": 63.16
+                },
+                "SB Bangar": {
+                    "runs": 4,
+                    "balls": 5,
+                    "strike_rate": 80.0
+                },
+                "Harbhajan Singh": {
+                    "runs": 14,
+                    "balls": 17,
+                    "strike_rate": 82.35
+                },
+                "Z Khan": {
+                    "runs": 11,
+                    "balls": 13,
+                    "strike_rate": 84.62
+                },
+                "J Srinath": {
+                    "runs": 3,
+                    "balls": 6,
+                    "strike_rate": 50.0
+                }
+            },
+            "bowling_contributions": {
+                "DR Tuffey": {
+                    "runs_given": 38,
+                    "wickets": 3,
+                    "balls": 62,
+                    "overs": 10.3,
+                    "economy": 3.68
+                },
+                "KD Mills": {
+                    "runs_given": 45,
+                    "wickets": 3,
+                    "balls": 62,
+                    "overs": 10.3,
+                    "economy": 4.35
+                },
+                "JDP Oram": {
+                    "runs_given": 50,
+                    "wickets": 1,
+                    "balls": 48,
+                    "overs": 8.0,
+                    "economy": 6.25
+                },
+                "DL Vettori": {
+                    "runs_given": 48,
+                    "wickets": 2,
+                    "balls": 49,
+                    "overs": 8.2,
+                    "economy": 5.88
+                },
+                "PA Hitchcock": {
+                    "runs_given": 38,
+                    "wickets": 1,
+                    "balls": 51,
+                    "overs": 8.5,
+                    "economy": 4.47
+                }
+            }
+        }
+    ]
+}
