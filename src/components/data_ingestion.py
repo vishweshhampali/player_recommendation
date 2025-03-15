@@ -2,6 +2,7 @@ import os
 import requests
 import json
 from pathlib import Path
+import sys
 from src.utils import unzip_file
 
 # Define the base URL for Cricsheet data
@@ -57,11 +58,4 @@ def ingest_data():
 if __name__ == "__main__":
     
     zip_file_path = ingest_data()
-
-    # Run the unzip function
-    if zip_file_path.exists():
-        unzip_file(zip_file_path)
-    else:
-        print(f"File {zip_file_path} not found!")
-
-        
+    unzip_file(zip_file_path)
