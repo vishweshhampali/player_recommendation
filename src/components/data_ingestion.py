@@ -43,19 +43,20 @@ def download_file(url, destination):
 
 def ingest_data():
     """Downloads and extracts cricket match data from Cricsheet."""
+    zip_destination = []
     for key, filename in data_files.items():
         url = f"{data_url}{filename}"
-        zip_destination = RAW_DATA_DIR / filename
+        zip_destination.append(RAW_DATA_DIR / filename)
         
-        if not zip_destination.exists():
+        if not zip_destination[0].exists():
             print(f"Downloading {key} data...")
             download_file(url, zip_destination)
         else:
             print(f"{key} data already exists. Skipping download.")
         
-        return zip_destination
+    return zip_destination
 
 if __name__ == "__main__":
     
     zip_file_path = ingest_data()
-    unzip_file(zip_file_path)
+    unzip_file(zip_file_path[0])

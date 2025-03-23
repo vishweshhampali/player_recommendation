@@ -7,7 +7,7 @@ def unzip_file(zip_path):
     """Unzips the given file into the specified directory."""
     try:
         if zip_path.exists():
-            extract_to = zip_path.parent/"extracted"
+            extract_to = zip_path.parent/"extracted/odi"
             if not extract_to.exists():
                 print(f"Extracting data...")
                 with zipfile.ZipFile(zip_path, 'r') as zip_ref:
