@@ -3,7 +3,7 @@ import requests
 import json
 from pathlib import Path
 import sys
-from src.utils import unzip_file
+from player_recommendation.src.utils import unzip_file
 
 # Define the base URL for Cricsheet data
 data_url = "https://cricsheet.org/downloads/"
@@ -57,6 +57,5 @@ def ingest_data():
     return zip_destination
 
 if __name__ == "__main__":
-    
     zip_file_path = ingest_data()
     unzip_file(zip_file_path[0])
