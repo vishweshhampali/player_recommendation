@@ -83,6 +83,11 @@ def extract_player_stats_and_metadata(json_path, match_format):
         stats["player_name"] = player
         player_data.append(stats)
     
+    # Map player name to their register key if available
+    player_registry = info.get("registry", {}).get("people", {})
+    for stats in player_data:
+        stats["player_code"] = player_registry.get(stats["player_name"], None)
+
     player_df = pd.DataFrame(player_data)
     
     match_metadata = {
@@ -91,8 +96,8 @@ def extract_player_stats_and_metadata(json_path, match_format):
         "match_format": match_format,
         "teams": " vs ".join(info.get("teams", [])),
         "team_type": info.get("team_type"),
-        "event_name": info.get("event", {}).get("name", []),
-        "event_match_no": info.get("event", {}).get("match_number", []),
+        "event_name": info.get("event", {}).get("name", None),
+        "event_match_no": info.get("event", {}).get("match_number", None),
         "venue": info.get("venue"),
         "city": info.get("city"),
         "stadium": info.get("venue"),  # alias
